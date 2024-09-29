@@ -13,11 +13,13 @@
   <name>Tahopen Commons Connections</name>
   <description>The Tahopen Connections API defines a common set of interfaces for dealing with connections and result sets.</description>
   <url>http://www.tahopen.org</url>
+  <!--
   <scm>
     <connection>scm:git:git@github.com:pentaho/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:pentaho/${project.artifactId}.git</developerConnection>
     <url>scm:git:git@github.com:pentaho/${project.artifactId}.git</url>
   </scm>
+  -->
   <properties>
     <commons-collections.version>3.2.2</commons-collections.version>
     <mockito-all.version>1.9.5</mockito-all.version>
@@ -73,37 +75,11 @@
 
 
   <repositories>
-  <!--
-    <repository>
-      <id>pentaho-public</id>
-      <name>Pentaho Public</name>
-      <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>interval:15</updatePolicy>
-      </snapshots>
-    </repository>
-    -->
+
   </repositories>
 
   <pluginRepositories>
-  <!--
-    <pluginRepository>
-      <id>pentaho-public-plugins</id>
-      <name>Pentaho Public Plugins</name>
-      <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-    </pluginRepository>
-    -->
+
   </pluginRepositories>
 
 
