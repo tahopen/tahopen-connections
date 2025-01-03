@@ -1,4 +1,4 @@
-# rahopen-connections
+# Tahopen-connections
 This project contains common Tahopen Connections API code.  Currently this
 code is used within the Tahopen BI Suite and Tahopen Metadata.
 
